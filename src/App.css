@@ -1,0 +1,18 @@
+main{
+  width: 100vw;
+  height: 100vh;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+main>div,main>header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 320px;
+  height: 320px;
+}
